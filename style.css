@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    margin-left: 15vw;
+    
+}
+ul{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+
+}
+li{
+    font-size: 2vw;
+    display: inline;
+    
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin-left: 7vw;
+}
+.main{
+    height: 90vh;
+    background: url(backgroundimage.jpg) no-repeat ;
+    background-size: cover;
+}
+a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.intro p{
+   
+    font-size: 3vw;
+}
+.intro{
+    position: relative;left: 10vw;top: 29vh;
+    
+}
+.intro p b{
+    color: blueviolet;
+}
+.intro b{
+    color: rgb(222, 126, 16);
+}
+.image{
+    height: 50vh;
+    width: 35vw;
+    background: url(face.png) no-repeat;
+    position: relative;left: 50vw;
+    background-size: contain;
+}
+.main button{
+    color:  white;
+    background-color: blueviolet;
+    border: 3px solid  white;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 17px;
+    position: relative;top: 0vh;left: 10vw;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 3px orange;
+}
+button:hover{
+    position: relative;top: 0.3vh;
+    background-color: rgb(9, 164, 236);
+}

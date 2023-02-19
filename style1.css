@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(backgroundimage.jpg)  no-repeat ;
+    background-size: cover;
+}
+h1{
+    font-size: 3vw;
+    color:blueviolet;
+}
+p{
+    font-size: 3vh;
+
+}
+header{
+    position: sticky;top: 0;
+}
